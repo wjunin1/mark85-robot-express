@@ -1,0 +1,47 @@
+{"level":30,"time":"2024-02-14T20:11:52.396Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Listening on 55818"}
+(node:11404) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-02-14T20:11:52.648Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:52.649Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:52.651Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:52.651Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:52.654Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-02-14T20:11:52.825Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-02-14T20:11:52.825Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-02-14T20:11:52.825Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-02-14T20:11:52.829Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-02-14T20:11:52.829Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-02-14T20:11:52.836Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active context"}
+{"level":30,"time":"2024-02-14T20:11:52.934Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Video path: undefined"}
+{"level":30,"time":"2024-02-14T20:11:52.934Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active page"}
+{"level":30,"time":"2024-02-14T20:11:53.366Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method newPage"}
+{"level":30,"time":"2024-02-14T20:11:53.369Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-02-14T20:11:53.370Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
+{"level":30,"time":"2024-02-14T20:11:53.387Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-02-14T20:11:53.390Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.392Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.393Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.394Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.396Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active context"}
+{"level":30,"time":"2024-02-14T20:11:53.396Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changing current active page: page=03b0cb68-f336-47f5-83fc-a43d9409cf20"}
+{"level":30,"time":"2024-02-14T20:11:53.396Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active page"}
+{"level":30,"time":"2024-02-14T20:11:53.399Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.399Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.400Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-02-14T20:11:53.401Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-02-14T20:11:53.402Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-02-14T20:11:53.402Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-02-14T20:11:53.404Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changing current active page: page=03b0cb68-f336-47f5-83fc-a43d9409cf20"}
+{"level":30,"time":"2024-02-14T20:11:53.404Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active page"}
+{"level":30,"time":"2024-02-14T20:11:53.406Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.407Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.407Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active context"}
+{"level":30,"time":"2024-02-14T20:11:53.408Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changing current active page: page=03b0cb68-f336-47f5-83fc-a43d9409cf20"}
+{"level":30,"time":"2024-02-14T20:11:53.408Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Changed active page"}
+{"level":30,"time":"2024-02-14T20:11:53.409Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-02-14T20:11:53.414Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Removed page=937ef1ab-eb9f-4393-a432-d49843b41181 from context=bf991716-7914-468b-a1cd-8ad0dc82415d page stack"}
+{"level":30,"time":"2024-02-14T20:11:53.424Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-02-14T20:11:53.428Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.428Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-14T20:11:53.452Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-02-14T20:11:53.515Z","pid":11404,"hostname":"DESKTOP-VJCABAJ","msg":"End of node method closeAllBrowsers"}
