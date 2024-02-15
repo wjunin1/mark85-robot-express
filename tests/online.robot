@@ -1,12 +1,10 @@
 *** Settings ***
 Documentation        Online
 
-Library    Browser
+Resource    ../resources/base.robot
 
 *** Test Cases ***
 Webapp deve estar online
     
-    New Browser    headless=False    browser=chromium
-    New Page    http://localhost:3000/
+    Start Session
     Get Title    equal    Mark85 by QAx
-        Sleep    10
