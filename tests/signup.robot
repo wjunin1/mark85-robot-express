@@ -9,6 +9,12 @@ Resource    ../resources/base.robot
 # ${email}        wpsjunior23@gmail.com
 # ${password}     pwd123
 
+Suite Setup    Log    Tudo aqui ocorre antes dos testes
+Suite Teardown    Log    Tudo aqui ocorre depois dos testes
+
+Test Setup        Start Session
+Test Teardown     Take Screenshot
+
 *** Test Cases ***
 Deve poder cadastrar um novo usuário
 
@@ -23,10 +29,7 @@ Deve poder cadastrar um novo usuário
     #${name}    FakerLibrary.Name
     #${email}    FakerLibrary.Email
 
-    
-    
     Remove user from database    ${user}[email]
-    Start Session
     Go To    http://localhost:3000/signup
     Wait For Elements State    css=h1    visible    5
     Get Text    css=h1    equal    Faça seu cadastro
@@ -52,7 +55,6 @@ Não deve permitir o cadastro com email duplicado
     
     Remove user from database    ${user}[email]
     Insert user from database    ${user}
-    Start Session
     Go To    http://localhost:3000/signup
     Wait For Elements State    css=h1    visible    5
     Get Text    css=h1    equal    Faça seu cadastro
@@ -62,3 +64,4 @@ Não deve permitir o cadastro com email duplicado
     Click    id=buttonSignup
     Wait For Elements State    css=.notice p    visible    5
     Get Text    css=.notice p     equal   Oops! Já existe uma conta com o e-mail informado.
+    
