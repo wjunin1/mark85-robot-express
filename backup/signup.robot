@@ -77,6 +77,32 @@ Não deve cadastrar com email incorreto
     Submit signup form    ${user}
     Alert should be    Digite um e-mail válido
 
+Não deve cadastrar com senha de 1 digito
+    [Tags]    short_pass
+    [Template]
+    short password    1
+
+Não deve cadastrar com senha de 2 digitos
+    [Tags]    short_pass
+    [Template]
+    short password    12
+
+Não deve cadastrar com senha de 3 digitos
+    [Tags]    short_pass
+    [Template]
+    short password    123
+
+Não deve cadastrar com senha de 4 digitos
+    [Tags]    short_pass
+    [Template]
+    short password    1234
+
+Não deve cadastrar com senha de 5 digitos
+    [Tags]    short_pass
+    [Template]
+    short password    12345
+
+
 Não deve cadastrar com senha muito curta
 
     @{password_list}    Create List    1    12    123    1234    12345
